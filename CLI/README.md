@@ -15,9 +15,9 @@ yarn global add velvix-ui
 The CLI provides a simple command to add Velvet UI components to your project:
 
 ```bash
-velvix add <component-name>
+velvix add <component-name> (if installed globally)
 or
-npx velvix add <component-name>
+npx velvix-ui add <component-name>
 ```
 
 ### Example
