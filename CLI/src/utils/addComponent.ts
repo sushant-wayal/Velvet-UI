@@ -11,7 +11,7 @@ export const addComponent = async (name: string) => {
     }
     const { data: code } = await axios.get(`${BASE_URL}${name}.tsx`)
     const checkPath = path.dirname(path.join(process.cwd(), 'src', 'components', 'temp.tsx'))
-    let destPath = fs.pathExistsSync(checkPath) ? path.join(process.cwd(), 'src', 'components', 'velvet', `${name}.tsx`) : path.join(process.cwd(), 'components', 'velvet', `${name}.tsx`)
+    let destPath = fs.pathExistsSync(checkPath) ? path.join(process.cwd(), 'src', 'components', 'velvix', `${name}.tsx`) : path.join(process.cwd(), 'components', 'velvix', `${name}.tsx`)
     fs.outputFileSync(destPath, code)
     console.log(chalk.green(`✅ ${name} added successfully!`))
   } catch (error) {

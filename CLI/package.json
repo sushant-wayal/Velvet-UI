@@ -1,15 +1,23 @@
 {
-  "name": "velvet-ui",
+  "name": "velvix-ui",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "velvet-ui": "dist/index.js"
+    "velvix-ui": "bin.js",
+    "velvix": "bin.js"
   },
   "scripts": {
     "build": "tsc"
   },
+  "keywords": [
+    "cli",
+    "velvix-ui",
+    "velvix",
+    "ui",
+    "component"
+  ],
   "dependencies": {
     "@types/commander": "^2.12.5",
     "@types/fs-extra": "^11.0.4",

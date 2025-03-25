@@ -5,9 +5,9 @@ A command-line interface tool for easily adding Velvet UI components to your Typ
 ## Installation
 
 ```bash
-npm install -g velvet-ui
+npm install -g velvix-ui
 # or
-yarn global add velvet-ui
+yarn global add velvix-ui
 ```
 
 ## Usage
@@ -15,27 +15,27 @@ yarn global add velvet-ui
 The CLI provides a simple command to add Velvet UI components to your project:
 
 ```bash
-velvet-ui add <component-name>
+velvix add <component-name>
 or
-npx velvet-ui add <component-name>
+npx velvix add <component-name>
 ```
 
 ### Example
 
 ```bash
-velvet-ui add Button
+velvix add Button
 ```
 
 This will:
 1. Download the component code from the Velvet UI repository
-2. Create a `velvet` directory in your project's components folder (either in `src/components` or `components`)
-3. Add the component file to the `velvet` directory
+2. Create a `velvix` directory in your project's components folder (either in `src/components` or `components`)
+3. Add the component file to the `velvix` directory
 
 ## Features
 
 - 🚀 Quick component installation
 - 📦 Automatic directory structure creation
-- 🎨 Direct integration with Velvet UI components
+- 🎨 Direct integration with Velvix UI components
 
 ## Requirements
 
@@ -51,7 +51,7 @@ The CLI will automatically create the following structure in your project:
 your-project/
 ├── src/
 │   └── components/
-│       └── velvet/
+│       └── velvix/
 │           └── <component-name>.tsx
 ```
 
@@ -60,7 +60,7 @@ If your project doesn't have a `src` directory, it will create:
 ```
 your-project/
 ├── components/
-│   └── velvet/
+│   └── velvix/
 │       └── <component-name>.tsx
 ```
 
