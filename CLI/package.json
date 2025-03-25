@@ -5,8 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "velvix-ui": "bin.js",
-    "velvix": "bin.js"
+    "velvix": "dist/index.js"
   },
   "scripts": {
     "build": "tsc"
