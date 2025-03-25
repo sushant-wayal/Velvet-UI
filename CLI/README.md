@@ -1,4 +1,4 @@
-# Velvet UI CLI
+# Velvix UI CLI
 
 A command-line interface tool for easily adding Velvet UI components to your Typescript Next project.
 
